@@ -1,0 +1,34 @@
+{
+	"Loaders":[
+		{
+			"ID":"cor-python-test",
+			"Framework":"python",
+			"Modules":[
+				{
+					"ID":"app.Requester",
+					"Path":"./",
+					"Arguments":[],
+					"Links":[
+						{
+							"MessageType":"Request",
+							"LinkType":"Internal",
+							"Targets":["app.Responder"]
+						}
+					]
+				},
+				{
+					"ID":"app.Responder",
+					"Path":"./",
+					"Arguments":[],
+					"Links":[
+						{
+							"MessageType":"Reply",
+							"LinkType":"Internal",
+							"Targets":["app.Requester"]
+						}
+					]
+				}
+			]
+		}
+	]
+}

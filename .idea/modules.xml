@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../cor/.idea/COR-Framework-Python.iml" filepath="$PROJECT_DIR$/../cor/.idea/COR-Framework-Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cordev/.idea/cor4.0.iml" filepath="$PROJECT_DIR$/../cordev/.idea/cor4.0.iml" />
+    </modules>
+  </component>
+</project>
